@@ -10,3 +10,11 @@
 # := = bota um sinaal a posição mais a esquerda
 # : = coloca um espaço antes de números positivos
 # :, = bota uma virgula
+
+preço1 = 3.14159
+preço2 = -987.65
+preço3 = 12.34
+
+print(f"O preço 1 é: {preço1:}")
+print(f"O preço 2 é: {preço2}")
+print(f"O preço 3 é: {preço3}")
