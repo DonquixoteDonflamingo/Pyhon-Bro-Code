@@ -1,4 +1,4 @@
-# Exercicio para valida a entrada do usuario
+# Exercicio para validar a entrada do usuario
 # 1. O nome do usuario não pode ter mais de 12 caracteres
 # 2. O nome do usuaria não pode ter espaços
 # 3. O nome do usuario não pode conter digitos
