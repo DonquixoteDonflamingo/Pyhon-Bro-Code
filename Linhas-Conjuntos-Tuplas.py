@@ -5,9 +5,13 @@
 
 frutas = ["Maça", "laranja", "banana", "coco"] # Se for uma lista, bote o nome em plural
 
+
+# inverte a lista, se quiser a lista em ordem alfabetica reversa tem que passar o .sort() primeiro
+# frutas.reverse()
+# Também se pode classificar (sort) a lista em ordem alfabetica
+# frutas.sort()
 # É possivel inserir um valor em um index especifico
-frutas.insert(0, "abacaxi")
-print(frutas)
+#frutas.insert(0, "abacaxi")
 # Também da para remover algum valor de uma lista
 # frutas.remove("Maça")
 # Também da para acrecentar elementos a umaa lista
