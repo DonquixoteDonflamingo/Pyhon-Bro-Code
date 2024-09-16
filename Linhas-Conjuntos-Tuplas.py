@@ -2,10 +2,18 @@
 #       Lista = [] ordanada e mutavel. Pode ter duplicados
 #       Conjunto = {} desordenada e imutavel, mas pode adicionar e mover. SEM NADA DUPLICADO
 #       Tupla = () ordenada e imutavel. Duplicados Ok. MAIS RAPIDA
+#TODO: Colocar o .help dos conjuntos e Tuplas 
 
-frutas = ["Maça", "laranja", "banana", "coco"] # Se for uma lista, bote o nome em plural
+frutas = ("Maça", "laranja", "banana", "coco") # Se for uma lista, bote o nome em plural
 
-
+print(frutas)
+# Listas:
+# Com o .count da para contar a quantidade de vezes em que um valor aparece em uma lista ou tuplaa
+#print(frutas.count("coco"))
+# Se quiser saber qual o index de uma lista usa-se .index
+# print(frutas.index("abacaxi"))
+# Para limpar uma lista usa-se a função .clear
+# frutas.clear()
 # inverte a lista, se quiser a lista em ordem alfabetica reversa tem que passar o .sort() primeiro
 # frutas.reverse()
 # Também se pode classificar (sort) a lista em ordem alfabetica
